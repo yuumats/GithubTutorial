@@ -1,4 +1,4 @@
-# サンプルコード
+# main.py
 
 while True:
     print("数値を入力してください")
