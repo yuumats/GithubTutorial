@@ -105,6 +105,7 @@ master
 
 これで、新しく作成したブランチに移動することができました。
 
+---
 ## ファイルの中身を変更
 
 では早速ファイルの中身を変更してみましょう。
@@ -195,3 +196,10 @@ git add .
 git add --all
 ```
 共有してはいけないファイルを共有するリスクがあるため
+
+---
+## 参考サイト
+- [GitHubアカウント作成方法](https://qiita.com/okumurakengo/items/848f7177765cf25fcde0)
+- [GitHubでssh接続する手順~公開鍵・秘密鍵の生成から~](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
+- [サルでもわかるGit入門](https://backlog.com/ja/git-tutorial/)
+- [Gitはじめの一歩](https://www.slideshare.net/ihcomega/git-57454868)
