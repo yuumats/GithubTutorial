@@ -27,6 +27,8 @@ $ git config --global user.email "<自分のメールアドレス>"
 
 これでgitが使える状態になりました。
 
+次に、githubにリモート環境からssh接続できるようにします。[ここ](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)を参照してsshの設定を行ってください。
+
 ---
 ## ローカルで作業できるようにする
 
@@ -143,11 +145,12 @@ git push -u origin <作成したブランチ>
 これで、リモートリポジトリの<作成したブランチ>に変更が反映されました。最後に、この変更をmasterに反映します。
 
 まず[このページ(リモートリポジトリ)](https://github.com/mnemonic24/GithubTutorial)をブラウザから開きます。
-[github rep home](https://user-images.githubusercontent.com/30532640/61031670-f2131880-a3fa-11e9-9709-4ae9556bc6dc.png)
+<!-- [github rep home](https://user-images.githubusercontent.com/30532640/61031670-f2131880-a3fa-11e9-9709-4ae9556bc6dc.png) -->
 すると、画像のようにCompare & pull requestというボタンが出現するのでクリックします。
-[github pullrequest](https://user-images.githubusercontent.com/30532640/61031671-f2abaf00-a3fa-11e9-8d10-2de5a5fe351d.png)
+<!-- [github pullrequest](https://user-images.githubusercontent.com/30532640/61031671-f2abaf00-a3fa-11e9-8d10-2de5a5fe351d.png) -->
 すると、open pull requestというページに行くので、マージする準備をします。ここで Able to merge と表示されていれば、マージすることができます。Create pull requestからpull requestを作成します。次のページでmergeをクリックするとマージ完了です。マージが完了したらDelete branchをクリックして作成したブランチを削除しましょう。
 
+---
 ## ローカルリポジトリを最新の状態にする。
 上記の操作でリモートリポジトリのmasterを更新することができました。しかし、ローカルリポジトリのmasterは最初の状態のままです。最後にリモートリポジトリの内容をローカルリポジトリに反映します。
 まず、現在のブランチをmasterに変更しましょう。
@@ -171,4 +174,4 @@ $ git branch
 ```
 $ git pull origin master
 ```
-これで再度src/main.pyを見てみると中身が変更されているはずです。以上がgitを使ったバージョン管理の流れになります。
+これで再度src/main.pyを見てみると中身が変更されているはずです。以上がgithubを使ったバージョン管理の流れになります。
