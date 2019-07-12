@@ -57,12 +57,12 @@ Gitでは、他人のリポジトリを複製することを fork と言いま�
 先ほど作成したリモートリポジトリをダウンロードしてきて、ローカル
 リモートリポジトリをクローン(ダウンロード)する。
 ```
-$ git clone git@github.com:mnemonic24/GithubTutorial.git
+$ git clone git@github.com:<自分のGithubアカウントのユーザID>/GithubTutorial.git
 ```
 
 もし指定した場所にクローンしたい場合は、下記のコマンドでクローン先のディレクトリを指定してください。
 ```
-$ git clone git@github.com:mnemonic24/GithubTutorial.git <クローン先のディレクトリ>
+$ git clone git@github.com:<自分のGithubアカウントのユーザID>/GithubTutorial.git <クローン先のディレクトリ>
 ```
 
 クローンしたらちゃんとリポジトリがあるか確認し、リポジトリ(ディレクトリ)に移動しましょう。
@@ -164,11 +164,11 @@ git push -u origin <作成したブランチ>
 ## 作成したブランチをmasterにマージ
 
 上記で行なった変更を、リモートのmasterブランチに反映します。
-まず[このページ(リモートリポジトリ)](https://github.com/mnemonic24/GithubTutorial)をブラウザから開きます。
+まず自分のリポジトリのページをブラウザから開きます(このページの上部に行けばOK)
 <!-- [github rep home](https://user-images.githubusercontent.com/30532640/61031670-f2131880-a3fa-11e9-9709-4ae9556bc6dc.png) -->
-Compare & pull requestというボタンが出現するのでクリックします。
+すると、Compare & pull requestというボタンが出現してるのでクリックします。
 <!-- [github pullrequest](https://user-images.githubusercontent.com/30532640/61031671-f2abaf00-a3fa-11e9-8d10-2de5a5fe351d.png) -->
-すると、open pull requestというページに行くので、マージする準備をします。ここで Able to merge と表示されていれば、マージすることができます。Create pull requestからpull requestを作成します。次のページでmergeをクリックするとマージ完了です。マージが完了したらDelete branchをクリックして作成したブランチを削除しましょう。
+すると、open pull requestというページに行くので、masterにマージする準備をします。ここで「Able to merge」と表示されていれば、マージすることができます。Create pull requestからpull requestを作成します。次のページでmergeをクリックするとマージ完了です。マージが完了したらDelete branchをクリックして作成したブランチを削除しましょう。
 
 ---
 ## リモートリポジトリをローカルリポジトリに反映
