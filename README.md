@@ -43,7 +43,7 @@ $ git config --global user.email "<自分のメールアドレス>"
 ---
 ## リモートリポジトリの作成
 まず初めに、自分のGithubアカウントで使うリモートリポジトリを作成します。
-このチュートリアルでは、[このリポジトリ](https://github.com/mnemonic24/GithubTutorial/)を自分用に複製して使います。
+このチュートリアルでは、[このリポジトリ](https://github.com/collabodesignlab/GithubTutorial/)を自分用に複製して使います。
 
 Gitでは、他人のリポジトリを複製することを fork と言います。では、さっそくforkしましょう。
 ページの右上部にあるforkというボタンをクリックします。
