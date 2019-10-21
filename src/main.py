@@ -10,10 +10,13 @@ while True:
     # -- ここに処理を追加してみよう --
 
     elif input_num == 1:
-        print("Hello World 2")
+        print("Hello World")
 
     elif input_num == 2:
         print("あいうえお")
+
+    elif input_num == 3:
+        print("kenkyu")
 
     else:
         print('該当するコマンドがありません')
